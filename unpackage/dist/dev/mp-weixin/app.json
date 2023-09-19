@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/index",
+    "pages/my/index",
+    "pages/shopCart/index",
+    "components/index/index/indexSwiper",
+    "components/index/index/recommond"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "app",
+    "navigationBarBackgroundColor": "#396EE0",
+    "backgroundColor": "#ffffff",
+    "titleColor": "black",
+    "enablePullDownRefresh": false,
+    "titleNView": true
+  },
+  "tabBar": {
+    "color": "#555",
+    "fontSize": "13px",
+    "iconWidth": "22px",
+    "selectedColor": "#396EE0",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "fontSize": "13px",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/stabar/index.png",
+        "selectedIconPath": "static/stabar/indexSelected.png",
+        "text": "首页"
+      },
+      {
+        "fontSize": "13px",
+        "pagePath": "pages/list/index",
+        "iconPath": "static/stabar/list.png",
+        "selectedIconPath": "static/stabar/listSelected.png",
+        "text": "应用"
+      },
+      {
+        "fontSize": "13px",
+        "pagePath": "pages/my/index",
+        "iconPath": "static/stabar/my.png",
+        "selectedIconPath": "static/stabar/mySelected.png",
+        "text": "我的"
+      },
+      {
+        "fontSize": "13px",
+        "pagePath": "pages/shopCart/index",
+        "iconPath": "static/stabar/shop.png",
+        "selectedIconPath": "static/stabar/shopSelected.png",
+        "text": "购物车"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

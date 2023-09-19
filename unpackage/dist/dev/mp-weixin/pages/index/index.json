@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "index-swiper": "/components/index/index/indexSwiper",
+    "recommond": "/components/index/index/recommond"
+  }
+}

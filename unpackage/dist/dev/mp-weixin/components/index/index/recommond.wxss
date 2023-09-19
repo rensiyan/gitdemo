@@ -1,0 +1,26 @@
+
+.recommond.data-v-0b175c3e {
+	padding: 20rpx;
+	width: 100%;
+}
+.recommond-item.data-v-0b175c3e {
+	display: flex;
+	flex-direction: column;
+	border-radius: 20rpx;
+	border: 2rpx solid #CCCCCC;
+	overflow: hidden;
+	margin: 20rpx 0;
+}
+.item-big.data-v-0b175c3e {
+	width: 100%;
+	height: 300rpx;
+}
+.item-small.data-v-0b175c3e{
+	width: 100%;
+	height: 240rpx;
+}
+.item-img.data-v-0b175c3e{
+	width: 33.333%;
+	height:240rpx;
+}
+

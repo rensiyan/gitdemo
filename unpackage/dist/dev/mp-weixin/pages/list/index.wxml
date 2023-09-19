@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><text class="f-active-color">{{title}}</text></view><view class="iconfont icon-xiaoxi">list</view></view>

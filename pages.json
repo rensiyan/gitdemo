@@ -1,0 +1,127 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				// "navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								
+							"float":"left",
+							"fontSrc":"./static/iconfont.ttf",
+							"text": "\ue6cf"
+							},
+							{
+								
+							"float":"right",
+							"fontSrc":"./static/iconfont.ttf",
+							"text": "\ue8bd"
+							}
+						]
+					}
+					
+				}
+			}
+		},
+		{
+			"path": "pages/list/index",
+			"style": {
+				"navigationBarTitleText": "列表",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/shopCart/index",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		} 
+		,{
+            "path" : "components/index/index/indexSwiper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/index/index/recommond",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "app",
+		"navigationBarBackgroundColor": "#396EE0",
+		"backgroundColor": "#ffffff",
+		"titleColor": "black",
+		"enablePullDownRefresh": false,
+		"titleNView": true
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#555",
+		"fontSize": "13px",
+		"iconWidth": "22px",
+		"selectedColor": "#396EE0",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white",
+		"list": [{
+				"fontSize": "13px",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/stabar/index.png",
+				"selectedIconPath": "static/stabar/indexSelected.png",
+				"text": "首页"
+			},
+			{
+				"fontSize": "13px",
+				"pagePath": "pages/list/index",
+				"iconPath": "static/stabar/list.png",
+				"selectedIconPath": "static/stabar/listSelected.png",
+				"text": "应用"
+			},
+			{
+				"fontSize": "13px",
+				"pagePath": "pages/my/index",
+				"iconPath": "static/stabar/my.png",
+				"selectedIconPath": "static/stabar/mySelected.png",
+				"text": "我的"
+			},
+			{
+				"fontSize": "13px",
+				"pagePath": "pages/shopCart/index",
+				"iconPath": "static/stabar/shop.png",
+				"selectedIconPath": "static/stabar/shopSelected.png",
+				"text": "购物车"
+			}
+		]
+	
+	}
+	
+}
